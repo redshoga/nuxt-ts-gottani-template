@@ -11,7 +11,8 @@
 ## Features
 
 - Default TypeScript settings
-- Default `stylelint` settings
+- Default `stylelint` settings (auto format `<style>`, *.css, *.scss, *.sass on save)
+- ESLint settings (auto format `<script>`, `<template>`, *.js, *.ts on save)
 - SCSS Support (`node-sass`, `sass-loader`)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - Path Autocomplete settings (support auto path complete using `~/` and `@/`)
@@ -38,6 +39,8 @@ create-nuxt-app v2.12.0
 
 ## Recommend VSCode Extensions
 
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [stylelint-plus](https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus)
 - [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
 

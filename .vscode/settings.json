@@ -18,5 +18,16 @@
   },
   "[scss]": {
     "editor.formatOnSave": false
-  }
+  },
+
+  // eslint, vetur settings
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
 }
