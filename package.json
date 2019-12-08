@@ -15,6 +15,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
