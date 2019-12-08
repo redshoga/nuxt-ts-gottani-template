@@ -29,6 +29,8 @@
     ],
     // https://qiita.com/ysKuga/items/e3a2a7c39ff1bd9f47b2
     "noImplicitThis": true,
+    // https://github.com/championswimmer/vuex-module-decorators#typescript
+    "experimentalDecorators": true,
   },
   "exclude": [
     "node_modules"
