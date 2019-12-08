@@ -2,26 +2,18 @@
 
 > My awe-inspiring Nuxt.js project
 
-## Build Setup
+## What is "gottani"
 
-``` bash
-# install dependencies
-$ npm run install
+**ごった煮[gottani]**
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+(n) various foods cooked together,hodgepodge,hotchpotch,mulligan stew
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+## Features
 
-# generate static project
-$ npm run generate
-```
+- Default `stylelint` settings
+- SCSS Support (`node-sass`, `sass-loader`)
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
-## Default options
+## Options on created
 
 ```bash
 $ npx create-nuxt-app nuxt-ts-gottani-template
@@ -44,3 +36,22 @@ create-nuxt-app v2.12.0
 ## Recommend VSCode Extensions
 
 - [stylelint-plus](https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus)
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ npm run install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
