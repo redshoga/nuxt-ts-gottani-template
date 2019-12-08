@@ -1,5 +1,6 @@
+import { Configuration } from '@nuxt/types'
 
-export default {
+const nuxtConfig: Configuration = {
   mode: 'spa',
   /*
   ** Headers of the page
@@ -34,6 +35,8 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // Typescript support
+    '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
@@ -43,7 +46,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/style-resources'
   ],
   /*
   ** Build configuration
@@ -55,12 +57,13 @@ export default {
     extend (config, ctx) {
     }
   },
-
   /*
-  ** Nuxt Style Resources configration
-  ** Doc: https://github.com/nuxt-community/style-resources-module
+  ** Typescript options
   */
-  styleResources: {
-    scss: ['~/assets/scss/variables.scss']
-  }
+  typescript: {
+    typeCheck: true,
+    ignoreNotFoundWarnings: true
+  },
 }
+
+module.exports = nuxtConfig
