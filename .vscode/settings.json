@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+
+  // disable default validator
+  "css.validate": false,
+  "scss.validate": false,
+
+  // enable stylelint (Please install `hex-ci.stylelint-plus` in your VSCode)
+  "stylelint.autoFixOnSave": true,
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": false
+  }
+}

@@ -40,3 +40,7 @@ create-nuxt-app v2.12.0
 ? Choose rendering mode Single Page App
 ? Choose development tools jsconfig.json (Recommended for VS Code)
 ```
+
+## Recommend VSCode Extensions
+
+- [stylelint-plus](https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus)
