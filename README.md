@@ -10,6 +10,7 @@
 
 ## Features
 
+- Default TypeScript settings
 - Default `stylelint` settings
 - SCSS Support (`node-sass`, `sass-loader`)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
