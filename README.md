@@ -15,6 +15,7 @@
 - Nuxt Style Resources
   - Share variables, mixins, functions across all style files (no @import needed)
   - [`@nuxtjs/style-resources`](https://github.com/nuxt-community/style-resources-module)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ## Options on created
 
