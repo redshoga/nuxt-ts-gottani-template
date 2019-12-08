@@ -1,6 +1,12 @@
 {
   "editor.tabSize": 2,
 
+  // path-autocomplete settings
+  "path-autocomplete.pathMappings": {
+    "~": "${folder}",
+    "@": "${folder}"
+  },
+
   // disable default validator
   "css.validate": false,
   "scss.validate": false,

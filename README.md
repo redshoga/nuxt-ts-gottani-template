@@ -14,6 +14,7 @@
 - Default `stylelint` settings
 - SCSS Support (`node-sass`, `sass-loader`)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
+- Path Autocomplete settings (support auto path complete using `~/` and `@/`)
 
 ## Options on created
 
@@ -38,6 +39,7 @@ create-nuxt-app v2.12.0
 ## Recommend VSCode Extensions
 
 - [stylelint-plus](https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus)
+- [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
 
 ## Build Setup
 
