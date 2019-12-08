@@ -13,6 +13,7 @@
 - Default TypeScript settings
 - Type safe Vuex module (using `vuex-module-decorators`)
 - Default `stylelint` settings (auto format `<style>`, *.css, *.scss, *.sass on save)
+- Typesafe enviroment settings (use `this.$environments`) (https://qiita.com/potato4d/items/5e267b828cfaba2ac960)
 - ESLint settings (auto format `<script>`, `<template>`, *.js, *.ts on save)
 - SCSS Support (`node-sass`, `sass-loader`)
 - [Normalize.css](https://necolas.github.io/normalize.css/)

@@ -1,5 +1,13 @@
 import { Configuration } from '@nuxt/types'
 
+// Load .env
+import DotEnv from "dotenv"
+DotEnv.config();
+
+// Validate this.$environments
+import { validate } from './plugins/environments'
+validate();
+
 const nuxtConfig: Configuration = {
   mode: 'spa',
   /*
@@ -30,6 +38,7 @@ const nuxtConfig: Configuration = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/environments.ts'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -46,6 +55,7 @@ const nuxtConfig: Configuration = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/dotenv'
   ],
   /*
   ** Build configuration

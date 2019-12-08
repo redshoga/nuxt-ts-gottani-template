@@ -23,6 +23,9 @@ export default Vue.extend({
   components: {
     SampleComponent,
     SampleCounter
+  },
+  created () {
+    console.log('this.$environments.SAMPLE_KEY', this.$environments.SAMPLE_KEY)
   }
 })
 </script>
