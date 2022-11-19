@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "nuxt": "^2.10.0"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@nuxt/types": "^0.5.3",
